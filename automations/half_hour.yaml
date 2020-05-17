@@ -1,0 +1,7 @@
+id: Half_hour
+alias: Cuckoo Clock every 30 minutes
+trigger:
+  platform: time_pattern
+  minutes: "/30"
+action:
+  service: script.cuckoo_clock
