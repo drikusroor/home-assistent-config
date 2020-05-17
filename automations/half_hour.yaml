@@ -6,6 +6,6 @@ trigger:
 condition:
   condition: time
   after: "05:30:00"
-  before: "22:30:00"
+  before: "22:31:00"
 action:
   service: script.cuckoo_clock
