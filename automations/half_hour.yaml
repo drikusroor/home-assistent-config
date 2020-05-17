@@ -3,5 +3,9 @@ alias: Cuckoo Clock every 30 minutes
 trigger:
   platform: time_pattern
   minutes: "/30"
+condition:
+  condition: time
+  after: "05:30:00"
+  before: "22:30:00"
 action:
   service: script.cuckoo_clock
