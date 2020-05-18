@@ -1,0 +1,12 @@
+id: trash_trigger
+alias: Trash trigger
+trigger:
+  platform: time
+  at: "20:30:00"
+condition:
+  condition: "time"
+  weekday:
+    - wed
+    - sun
+action:
+  service: script.trash_notification

@@ -1,0 +1,7 @@
+id: Morning
+alias: Something that happens every morning
+trigger:
+  platform: time
+  at: "07:29:00"
+action:
+  service: script.morning

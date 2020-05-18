@@ -1,0 +1,7 @@
+id: Midnight
+alias: Something that happens every midnight
+trigger:
+  platform: time
+  at: "00:00:00"
+action:
+  service: script.midnight
