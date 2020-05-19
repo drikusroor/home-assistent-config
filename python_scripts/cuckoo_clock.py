@@ -7,6 +7,10 @@ minute = int(data.get("minute"))
 
 amount = hour
 
+# Only allowed after work hours, otherwise the girlfriend gets angry
+if hour < 18:
+    return
+
 if hour > 12:
     amount = hour - 12
 elif minute < 55 and minute > 5:
