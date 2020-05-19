@@ -1,0 +1,18 @@
+id: Weekdays 8:55
+alias: Tell us it is time to work every morning at 8:55 on a weekday
+trigger:
+  platform: time
+  at: "08:55:00"
+condition:
+  condition: time
+  weekday:
+    - mon
+    - tue
+    - wed
+    - thu
+    - fri
+action:
+  service: tts.google_translate_say
+  entity_id: "all"
+  data:
+    message: "Time to work, you lazy bums!"

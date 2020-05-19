@@ -1,5 +1,5 @@
 midnight:
-  alias: "Set the volume of the living room speaker"
+  alias: "0.3 - Set the volume of the living room speaker"
   sequence:
     - service: media_player.volume_set
       data_template:

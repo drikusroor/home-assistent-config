@@ -1,7 +1,7 @@
 homeassistant:
   name: Home
-  latitude: 52.1129711
-  longitude: 5.1005128
+  latitude: 52.106380
+  longitude: 5.091980
   unit_system: metric
   time_zone: Europe/Amsterdam
 
